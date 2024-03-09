@@ -110,7 +110,7 @@ fi
 
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-eval "$(oh-my-posh init bash --config ~/configs/theme.omp.json)" 
+eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/theme.omp.json)" 
 
 # HSTR configuration - add this to ~/.bashrc
 alias hh=hstr                    # hh to be alias for hstr
