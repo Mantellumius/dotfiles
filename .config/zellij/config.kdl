@@ -1,3 +1,7 @@
+pane_viewport_serialization true
+session_serialization true
+session_serialization 10
+
 plugins {
     tab-bar { path "tab-bar"; }
     status-bar { path "status-bar"; }

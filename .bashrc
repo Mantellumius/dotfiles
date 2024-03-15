@@ -108,7 +108,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-
+eval "$(zoxide init --cmd cd bash)"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/theme.omp.json)" 
 
