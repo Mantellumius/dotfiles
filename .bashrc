@@ -5,6 +5,7 @@
 export VISUAL="/home/mantellumius/.local/bin/nvim"
 export EDITOR="/home/mantellumius/.local/bin/nvim"
 export SUDO_EDITOR="/home/mantellumius/.local/bin/nvim"
+export PATH="$PATH:~/.local/bin"
 
 # If not running interactively, don't do anything
 case $- in
